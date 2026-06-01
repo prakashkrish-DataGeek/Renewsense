@@ -1,0 +1,15 @@
+{
+  "latitude": 27.0238,
+  "longitude": 74.2179,
+  "radius_km": 25,
+  "location_name": "Rajasthan Testing Site",
+  "vector_scores": {
+    "SRI": 85.0,
+    "WRP": 40.0,
+    "HSI": 20.0,
+    "GIR": 80.0,
+    "EVI": 90.0,
+    "RPE": 75.0,
+    "LSA": 70.0
+  }
+}

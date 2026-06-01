@@ -1,0 +1,87 @@
+# ── RenewSense Vector Normalisation Parameters ──────────────────────────────
+# Defines score functions, units, and piecewise linear interpolation breakpoints
+
+SRI:
+  unit: "kWh/m²/day"
+  description: "Solar Resource Intensity based on annual mean Global Horizontal Irradiance"
+  breakpoints:
+    - [1.0, 0.0]
+    - [2.0, 10.0]
+    - [3.0, 30.0]
+    - [4.0, 50.0]
+    - [5.0, 70.0]
+    - [5.5, 80.0]
+    - [6.0, 88.0]
+    - [7.0, 95.0]
+    - [8.0, 100.0]
+
+WRP:
+  unit: "W/m²"
+  description: "Wind Resource Potential based on wind power density at 100m height"
+  breakpoints:
+    - [50.0, 0.0]
+    - [100.0, 15.0]
+    - [150.0, 25.0]
+    - [250.0, 45.0]
+    - [350.0, 65.0]
+    - [400.0, 75.0]
+    - [550.0, 85.0]
+    - [750.0, 95.0]
+    - [1000.0, 100.0]
+
+HSI:
+  unit: "Risk Score (0-5)"
+  description: "Hydrological Stress Index (inverted baseline water stress score)"
+  breakpoints:
+    - [0.0, 100.0]
+    - [1.0, 85.0]
+    - [2.0, 65.0]
+    - [3.0, 45.0]
+    - [4.0, 20.0]
+    - [5.0, 0.0]
+
+GIR:
+  unit: "km"
+  description: "Grid Infrastructure Readiness based on distance to nearest HV transmission line"
+  breakpoints:
+    - [0.0, 100.0]
+    - [5.0, 95.0]
+    - [10.0, 90.0]
+    - [25.0, 70.0]
+    - [50.0, 45.0]
+    - [75.0, 25.0]
+    - [100.0, 15.0]
+    - [150.0, 0.0]
+
+EVI:
+  unit: "Events / 20 yrs"
+  description: "Environmental Volatility Index based on frequency of local Category 3+ extreme events"
+  breakpoints:
+    - [0.0, 100.0]
+    - [1.0, 85.0]
+    - [2.0, 70.0]
+    - [3.0, 50.0]
+    - [4.0, 35.0]
+    - [5.0, 20.0]
+    - [6.0, 0.0]
+
+RPE:
+  unit: "Policy Tier (1-5)"
+  description: "Regulatory & Policy Environment based on legal targets and permitting frameworks"
+  breakpoints:
+    - [1.0, 20.0]
+    - [2.0, 40.0]
+    - [3.0, 60.0]
+    - [4.0, 80.0]
+    - [5.0, 100.0]
+
+LSA:
+  unit: "%"
+  description: "Land Availability & Social Acceptance based on proportion of developable land"
+  breakpoints:
+    - [0.0, 0.0]
+    - [10.0, 20.0]
+    - [20.0, 40.0]
+    - [30.0, 60.0]
+    - [50.0, 80.0]
+    - [75.0, 100.0]
