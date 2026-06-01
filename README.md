@@ -18,7 +18,7 @@
 
 ## What Is RenewSense?
 
-RenewSense is an institutional-grade, multi-vector geospatial intelligence platform designed to synthesize physical terrain data, climate risk signals, grid infrastructure proximity, and resource potentials into a unified **Investment Sensitivity Score (ISS)**. 
+RenewSense is a multi-vector geospatial intelligence platform designed to synthesize physical terrain data, climate risk signals, grid infrastructure proximity, and resource potentials into a unified **Investment Sensitivity Score (ISS)**. 
 
 Designed for investment committees, infrastructure developers, transition analysts, and researchers, the application carries the weight of a professional due-diligence instrument. It provides transparent scoring profiles, sensitivity checks, dynamic scenario pivots, and automated due-diligence investment memo generation.
 
